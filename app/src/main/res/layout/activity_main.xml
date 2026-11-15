@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button android:id="@+id/allowBtn"
+        android:text="1. Allow access to photos"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/startBtn"
+        android:text="2. Turn on backup"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/stopBtn"
+        android:text="Stop backup"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <ScrollView android:layout_marginTop="16dp"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView android:id="@+id/status"
+            android:textSize="12sp" android:text="Ready."
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>
